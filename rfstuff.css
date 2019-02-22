@@ -1,0 +1,165 @@
+.header {
+  background: #777779;
+  clear: both;
+  height: 75px;
+}
+
+.other-header{
+  width:85%;
+  margin:0 auto;
+}
+  
+  #logo {
+    float:left;
+    margin:20px 20px;
+    width:250px;
+    
+  }
+  
+  #navlist {
+    float:right;
+    margin:0;
+  }
+  
+  #navlist li{
+    display: inline;
+    list-style-type: none;
+    padding-right: 20px;
+    font-family: "Open Sans",Helvetica,Arial,sans-serif;
+  }
+  
+  #navlist li a:link{
+    line-height: 75px;
+        height: 75px;
+        color:white;
+  }
+
+  #navlist li a:visited{
+    line-height: 75px;
+        height: 75px;
+        color:white;
+  }
+  
+  
+.parallax { 
+  /* The image used */
+  background-image: url("https://rfconvention.eventscloud.com/image.php?acc=7328&id=990037");
+
+  /* Set a specific height */
+  height: 350px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.mdBtnR-primary, a.mdBtnR-primary {
+    color: #fff;
+    background-color: #777779;
+    border-color: #777779;
+}
+
+.mdBtnR-outline-primary .mdBtnR-text, a.mdBtnR-outline-primary .mdBtnR-text {
+    color: #777779;
+}
+
+.mdBtnR-outline-primary, a.mdBtnR-outline-primary {
+    color: #777779;
+    background-color: #fff;
+    border-color: #777779;
+}
+
+.mdBtnR-outline-primary, a.mdBtnR-outline-primary {
+    color: #777779;
+    background-color: #fff;
+    border-color: #777779;
+}
+
+.mdBtnR-outline-primary:hover, .mdBtnR-outline-primary:focus, .mdBtnR-outline-primary.active, a.mdBtnR-outline-primary:hover, a.mdBtnR-outline-primary:focus, a.mdBtnR-outline-primary.active {
+    color: #777779;
+    background-color: rgba(125,55,145,0.08);
+    background-image: none;
+    border-color: #777779;
+}
+
+.mdBtnR-primary:hover, .mdBtnR-primary:focus, .mdBtnR-primary.active, a.mdBtnR-primary:hover, a.mdBtnR-primary:focus, a.mdBtnR-primary.active {
+    color: #fff;
+    background-color: #777779;
+    background-image: none;
+    border-color: #777779;
+}
+
+#reg-confirmation-page table th {
+    background-color: #777779;
+    color: #fff;
+    text-align: left;
+}
+
+.rfSI svg {
+    cursor: pointer;
+    display: block;
+    fill: #777779;
+    height: 100%;
+    opacity: 1;
+    width: 100%;
+}
+
+.rfwf-full-panel.rfwf-confirmation-buttons {
+    display: none;
+}
+
+button.mdBtnR.mdBtnR-secondary.insertedbutton {
+    padding: 15px;
+    border: 1px solid black;
+    margin: 20px 0px 20px 60px;
+}
+
+ /* Branding for Dashboard Printing Confirmation*/
+.order-confirmation .confirmation-container {
+  padding: 16px;
+  border-radius: 4px;
+  background-color: rgba(240, 240, 240, 1);
+}
+
+.order-confirmation .confirmation-container .confirmation-header h2 {
+  float: left;
+}
+.order-confirmation .confirmation-container .confirmation-header span {
+  float: right;
+}
+
+.order-confirmation .confirmation-container .confirmation-header .account-link {
+  display: inline-block;
+  margin-right: 12px;
+  vertical-align: middle;
+}
+
+.order-confirmation .confirmation-container h3,
+.order-confirmation .confirmation-container p {
+  margin-bottom: 4px;
+}
+
+.order-confirmation .confirmation-container .confirmation-pricing {
+  padding-right: 80px;
+}
+
+.order-confirmation .confirmation-container .line-item {
+  margin-bottom: 4px;
+  padding-bottom: 4px;
+}
+
+.order-confirmation .confirmation-container .item-price {
+  text-align: right;
+}
+
+.order-confirmation .confirmation-container .total-price {
+  border-bottom: 1px solid rgba(220, 220, 220, 1);
+}
+
+.order-confirmation .confirmation-container .balance-due {
+
+}
+
+
